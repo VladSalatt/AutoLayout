@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC47536626C40EEE00F02866 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC47536526C40EEE00F02866 /* Page.swift */; };
 		DC5B86D826BD8B03007D6C03 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B86D726BD8B03007D6C03 /* SwipingController.swift */; };
 		DC5B86DA26BD97F5007D6C03 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5B86D926BD97F5007D6C03 /* PageCell.swift */; };
 		DCCD0C4F26BC344100A43D99 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCD0C4E26BC344100A43D99 /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC47536526C40EEE00F02866 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		DC5B86D726BD8B03007D6C03 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
 		DC5B86D926BD97F5007D6C03 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
 		DCCD0C4B26BC344100A43D99 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,7 @@
 				DCCD0C5C26BC344200A43D99 /* Info.plist */,
 				DC5B86D726BD8B03007D6C03 /* SwipingController.swift */,
 				DC5B86D926BD97F5007D6C03 /* PageCell.swift */,
+				DC47536526C40EEE00F02866 /* Page.swift */,
 			);
 			path = AutoLayout;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				DCCD0C5326BC344100A43D99 /* ViewController.swift in Sources */,
 				DC5B86DA26BD97F5007D6C03 /* PageCell.swift in Sources */,
+				DC47536626C40EEE00F02866 /* Page.swift in Sources */,
 				DCCD0C4F26BC344100A43D99 /* AppDelegate.swift in Sources */,
 				DCCD0C5126BC344100A43D99 /* SceneDelegate.swift in Sources */,
 				DC5B86D826BD8B03007D6C03 /* SwipingController.swift in Sources */,
