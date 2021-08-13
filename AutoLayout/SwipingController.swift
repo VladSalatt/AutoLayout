@@ -14,6 +14,24 @@ private enum Constants {
 
 class SwipingController: UICollectionViewController {
  
+    //  Уведомляет контетйнер о том, что размер его представления скоро изменится
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        
+        coordinator.animate(alongsideTransition: { (_) in
+            
+            // Запускает обновление layout
+            self.collectionViewLayout.invalidateLayout()
+            
+            // contentOffset - Точка, в которой начало представления содержимого смещено от начала представления прокрутки.
+            if self.pageControl.currentPage == 0 {
+                self.collectionView.contentOffset = .zero
+            } else {
+                let indexPath = IndexPath(item: self.pageControl.currentPage, section: 0)
+                self.collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+            }
+        }, completion: nil)
+    }
+    
 // MARK: UI
     
     // Сделали такую структуру для поддержания MVC
